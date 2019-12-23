@@ -1,5 +1,4 @@
-# CLS-Mask_R-CNN
-Crown-like Structure Detection and Segmentation in 3D Light-sheet Microscopy Imaging
+# Mask_R-CNN for Crown-like Structure Detection and Segmentation in 3D Light-sheet Microscopy Imaging
 This is an implementation of adapting Mask R-CNN of crown-like structure (CLS) detection and segmentation in light-sheet microscopy imaging.
 
 The repository includes:
@@ -8,3 +7,5 @@ The repository includes:
 * Code for plotting free-response operation charactieristc (FROC) curve for performanace evaluation.
 * Pre-trained model for CLS light-sheet microscopy images with ResNet-101 backbone
 ![pipeline](figures/pipeline.png)
+
+This code is an extension from the work of [matterport Mask R-CNN](https://github.com/matterport/Mask_RCNN). Please condider to cite both repositories (blbbex below) if you are using this in your research.
