@@ -7,7 +7,7 @@ The repository includes:
 * Code for plotting free-response operation charactieristc (FROC) curve for performanace evaluation.
 * Pre-trained model for CLS light-sheet microscopy images with ResNet-101 backbone
 - Mask R-CNN architecure
-![maskrcnn](figures/maskrnn.png)
+![maskrcnn](figures/maskrcnn.png)
 
 - CLS detection and segmentation pipeline visulaization 
 ![pipeline](figures/pipeline.png)
