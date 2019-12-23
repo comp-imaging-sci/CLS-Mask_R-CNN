@@ -8,4 +8,4 @@ The repository includes:
 * Pre-trained model for CLS light-sheet microscopy images with ResNet-101 backbone
 ![pipeline](figures/pipeline.png)
 
-This code is an extension from the work of [matterport Mask R-CNN](https://github.com/matterport/Mask_RCNN). Please condider to cite both repositories (blbbex below) if you are using this in your research.
+This code is an extension from the work of [matterport Mask R-CNN](https://github.com/matterport/Mask_RCNN). Please condider to cite both repositories (blbbex below) if you are using this in your research. You can download the pre-trained weights on [Googl Drive Pretrain Mask R-CNN CLS](https://drive.google.com/open?id=10vgXowD2M8xRrs6-A5pXCUbDlOUfan2A) and put in under this directory and change the path to load the model.
