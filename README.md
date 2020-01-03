@@ -14,7 +14,7 @@ The repository includes:
 * Pre-trained model for CLS light-sheet microscopy images with ResNet-101 backbone
 - Mask R-CNN architecure
 <p align="center">
-    <img src="figures/maskrcnn.png" width="600" height="400">
+    <img src="figures/maskrcnn.png" width="600" height="300">
 </p>
 
 - CLS detection and segmentation pipeline visulaization 
