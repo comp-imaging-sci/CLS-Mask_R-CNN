@@ -6,6 +6,7 @@ This is an implementation of adapting Mask R-CNN of crown-like structure (CLS) d
 <p align="center">
     <b><em>Visualization of segemnted CLS masks overlaid on nucleus image</em></b>
 </p>
+
 The repository includes:
 * Source code of adapting Mask R-CNN on CLS detection and segmentation
 * Code for post-processing steps including slice compensation for maintaining 3D consistency of CLS and delineation of 3D CLS for the convenience of counting.
