@@ -4,7 +4,7 @@ This is an implementation of adapting Mask R-CNN of crown-like structure (CLS) d
     <img src="figures/overlay_segmentation.png" width="324" height="324">
 </p>
 <p align="center">
-    <em>**Visualization of segemnted CLS masks overlaid on nucleus image**</em>
+    <b><em>**Visualization of segemnted CLS masks overlaid on nucleus image**</em></b>
 </p>
 The repository includes:
 * Source code of adapting Mask R-CNN on CLS detection and segmentation
