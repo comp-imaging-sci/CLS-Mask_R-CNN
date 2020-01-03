@@ -35,4 +35,6 @@ This code is an extension from the work of [matterport Mask R-CNN](https://githu
 - Other packages listed in the requirements.txt
 ```
 ## Implementation
+### 1. Data Preparation and pre-processing
+
 ## Citations
