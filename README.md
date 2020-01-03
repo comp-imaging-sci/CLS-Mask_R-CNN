@@ -1,6 +1,6 @@
 # Mask R-CNN for Crown-like Structure Detection and Segmentation in 3D Light-sheet Microscopy Imaging
 This is an implementation of adapting Mask R-CNN of crown-like structure (CLS) detection and segmentation in light-sheet microscopy imaging.
-![overlay_segmentation](figures/overlay_segmentation.png =100x100)
+![overlay_segmentation](figures/overlay_segmentation.png =250x250)
 *Visualization of segemnted CLS masks overlaid on nucleus image*
 The repository includes:
 * Source code of adapting Mask R-CNN on CLS detection and segmentation
