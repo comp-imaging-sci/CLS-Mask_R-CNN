@@ -37,8 +37,7 @@ This code is an extension from the work of [matterport Mask R-CNN](https://githu
 ## Implementation
 ### 1. Data Preparation and Pre-processing
 #### Training Your Own Model
-- The original image data should seperate all raw light-sheet microscopy images and corresponding human annotated masks in two individual folders.
-- By running the function `directory_organizer` in `pre_processing.py`, all training data should be organized as the file structure shown below:
+The original image data should seperate all raw light-sheet microscopy images and corresponding human annotated masks in two individual folders. By running the function `directory_organizer` in `pre_processing.py`, all training data should be organized as the file structure shown below:
 ```
 image_name
 ├── images
@@ -49,10 +48,21 @@ image_name
     ├── CLS_mask3.png
 ```
 #### Using Our Pretrained Model to Detect CLS
-- Just simply put all raw images in one folder
+Just simply put all raw images in one folder
 
 ### 2. Detect CLS Using Our Pretrained Model
 ```
 ./run_detection.sh detection --logs_dir=/path/to/pretrain/model/ --dataset_dir=/path/to/dataset/ --data_subset=/path/to/subfolder/in/dataset/folder --results_dir=/path/to/save/results --results_subset=/path/to/subfolder/in/results/folder
 ```
 ## Citations
+Use this bibtex to cite this repository:
+```
+@misc{matterport_maskrcnn_2017,
+  title={Mask R-CNN for object detection and instance segmentation on Keras and TensorFlow},
+  author={Waleed Abdulla},
+  year={2017},
+  publisher={Github},
+  journal={GitHub repository},
+  howpublished={\url{https://github.com/matterport/Mask_RCNN}},
+}
+```
