@@ -36,6 +36,7 @@ This code is an extension from the work of [matterport Mask R-CNN](https://githu
 ```
 ## Implementation
 ### 1. Data Preparation and pre-processing
+#### Training your own model
 - The original image data should seperate all raw light-sheet microscopy images and corresponding human annotated masks in two individual folders.
 - By running the function `directory_organizer` in `pre_processing.py`, all training data should be organized as the file structure shown below:
 ```
@@ -47,5 +48,7 @@ image_name
     ├── CLS_mask2.png
     ├── CLS_mask3.png
 ```
+#### Using our pretrained model to detect CLS
+- Just simply put all raw images in one folder
 
 ## Citations
