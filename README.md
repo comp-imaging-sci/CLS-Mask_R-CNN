@@ -36,6 +36,8 @@ This code is an extension from the work of [matterport Mask R-CNN](https://githu
 ```
 ## Implementation
 ### 1. Data Preparation and pre-processing
+- The original image data should seperate all raw light-sheet microscopy images and corresponding human annotated masks in two individual folders.
+- By running the function `directory_organizer` in `pre_processing.py`, all training data should be organized as the file structure shown below:
 ```
 image_name
 ├── images
