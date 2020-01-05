@@ -53,6 +53,6 @@ image_name
 
 ### 2. Detect CLS Using Our Pretrained Model
 ```
-run_detection detection --logs_dir=/path/to/pretrain/model/ --dataset_dir=/path/to/dataset/ --data_subset=/path/to/subfolder/in/dataset/folder --results_dir=/path/to/save/results --results_subset=/path/to/subfolder/in/results/folder
+./run_detection.sh detection --logs_dir=/path/to/pretrain/model/ --dataset_dir=/path/to/dataset/ --data_subset=/path/to/subfolder/in/dataset/folder --results_dir=/path/to/save/results --results_subset=/path/to/subfolder/in/results/folder
 ```
 ## Citations
