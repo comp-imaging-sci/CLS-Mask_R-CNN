@@ -36,5 +36,14 @@ This code is an extension from the work of [matterport Mask R-CNN](https://githu
 ```
 ## Implementation
 ### 1. Data Preparation and pre-processing
+```
+image_name
+├── images
+│   └── image_name.tif
+└── masks
+    ├── CLS_mask1.png
+    ├── CLS_mask2.png
+    ├── CLS_mask3.png
+```
 
 ## Citations
