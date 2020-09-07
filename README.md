@@ -30,7 +30,8 @@ This code is an extension from the work of [matterport Mask R-CNN](https://githu
 ## Requirements
 ```
 - Python 3.7.3
-- Tensorflow>=1.3.0
+- Tensorflow = 1.13
+- CUDA Toolkit = 10.0
 - Keras 2.2
 - Other packages listed in the requirements.txt
 ```
