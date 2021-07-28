@@ -56,8 +56,19 @@ Just simply put all raw images in one folder
 ./run_detection.sh detection --logs_dir=/path/to/pretrain/model/ --dataset_dir=/path/to/dataset/ --data_subset=/path/to/subfolder/in/dataset/folder --results_dir=/path/to/save/results --results_subset=/path/to/subfolder/in/results/folder
 ```
 ## Citations
-Use this bibtex to cite this repository:
+Please cite these paper if using the repository:
 ```
+@article{geng20213d,
+  title={3D microscopy and deep learning reveal the heterogeneity of crown-like structure microenvironments in intact adipose tissue},
+  author={Geng, Junlong and Zhang, Xiaohui and Prabhu, Suma and Shahoei, Sayyed Hamed and Nelson, Erik R and Swanson, Kelly S and Anastasio, Mark A and Smith, Andrew M},
+  journal={Science Advances},
+  volume={7},
+  number={8},
+  pages={eabe2480},
+  year={2021},
+  publisher={American Association for the Advancement of Science}
+}
+
 @misc{matterport_maskrcnn_2017,
   title={Mask R-CNN for object detection and instance segmentation on Keras and TensorFlow},
   author={Waleed Abdulla},
